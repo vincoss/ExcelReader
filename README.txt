@@ -1,0 +1,1 @@
+Helper class to read data table / Excel file data into a contract class.
