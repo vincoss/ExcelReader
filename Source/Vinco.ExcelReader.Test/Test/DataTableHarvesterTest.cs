@@ -148,10 +148,10 @@ namespace Vinco.ExcelReader.Test
         public void AddMessage_Test()
         {
             // Act
-            var harveseter = CreateHarvester();
+            var harvester = CreateHarvester();
 
             // Assert
-            harveseter.DiagnosticsCallback = (x) => Assert.Equal("Test", x);
+            harvester.DiagnosticsCallback = (x) => Assert.Equal("Test", x);
         }
 
         private DataTableHarvester CreateHarvester()
